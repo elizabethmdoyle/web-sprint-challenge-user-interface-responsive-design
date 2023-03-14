@@ -55,6 +55,7 @@ html {
     max-width: 1920px;
     min-width: 428px;
     font-size: 62.5%;
+    margin: auto;
 }
 
 body {
@@ -147,6 +148,9 @@ nav a {
     background-repeat: no-repeat;
 }
 
+menu h2 {
+    font-size: 7rem;
+}
 /* footer section */
 footer {
     width: 100%;
