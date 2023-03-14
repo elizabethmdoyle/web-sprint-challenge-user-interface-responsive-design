@@ -88,6 +88,11 @@ p, a {
     font-size: 3rem;
 }
 
+label {
+    font-size: 3rem;
+    color: white; 
+}
+
 /* header section */
 header {
     width: 100%;
@@ -100,7 +105,7 @@ header {
 }
 
 header div {
-    height: 40%;
+    height: 500px;
     width: 100%;
     margin: 10px;
     padding: 20px;  
@@ -111,6 +116,7 @@ header div {
     background-color: rgb(0, 4, 17, .8);
    
 }
+
 
 a {
     margin: 10px;
