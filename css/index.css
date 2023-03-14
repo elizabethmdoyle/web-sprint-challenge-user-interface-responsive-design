@@ -62,14 +62,18 @@ html {
 body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.5;
+    background-color: rgb(0, 4, 17);
+
 }
 
 h1, h2, h3, h4, h5, h6, p, a, i {
     text-decoration: none;
+    color: white;
 }
 
 h1 {
     font-size: 7.5rem;
+    text-align: center;
 }
 
 h2 {
@@ -92,6 +96,26 @@ header {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    
+}
+
+header div {
+    height: 40%;
+    width: 100%;
+    margin: 10px;
+    padding: 20px;  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 4, 17, .8);
+   
+}
+
+a {
+    margin: 5px;
+    padding: 20px;
+    
 }
 
 /* spacers */
