@@ -103,25 +103,43 @@ header {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
+
 header div {
-    height: 40%;
     width: 100%;
     margin: 10px;
     padding: 20px;  
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     background-color: rgb(0, 4, 17, .8);
-   
+
+}
+
+header div nav  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 40px;   
+    text-align: center;
+
+}
+
+nav div a {
+    padding: 25px;
 }
 
 nav a {
-    margin: 10px;
-    padding: 40px;   
-    text-align: center;;
+    padding: 25px;
 }
 
 /* spacer */
@@ -151,6 +169,24 @@ nav a {
 menu h2 {
     font-size: 7rem;
 }
+
+article {
+    width: 80%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 40px;   
+    text-align: center;
+
+}
+
+article h2 {
+    align-self: center;
+}
+
+
 /* footer section */
 footer {
     width: 100%;
